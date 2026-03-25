@@ -22,3 +22,21 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Testing
+/coverage
+
+# Next.js (kept for reference if migrating)
+/.next/
+/out/
+
+# Env files
+.env*
+
+# Vercel
+.vercel
+
+# TypeScript
+*.tsbuildinfo
+next-env.d.ts
+
