@@ -198,7 +198,7 @@ export const testimonials = [
     name: 'Priya R.',
     role: 'First-Time Home Buyer',
     quote:
-      'As a first-time buyer, the whole process felt overwhelming until I found this team. They walked me through every step, from pre-approval to closing. I couldn't be happier.',
+      "As a first-time buyer, the whole process felt overwhelming until I found this team. They walked me through every step, from pre-approval to closing. I couldn't be happier.",
     rating: 5,
   },
   {
@@ -206,7 +206,7 @@ export const testimonials = [
     name: 'Derek & Ana L.',
     role: 'Buy-and-Hold Investors',
     quote:
-      'We've used them for three properties now. The foreclosure deals they source are real — we picked up a duplex at 50% of market value and it's cash-flowing from day one.',
+      "We've used them for three properties now. The foreclosure deals they source are real — we picked up a duplex at 50% of market value and it's cash-flowing from day one.",
     rating: 5,
   },
 ]
@@ -223,7 +223,7 @@ export const teamMembers = [
     id: 1,
     name: 'Michael Sonisch',
     role: 'Founder & Mortgage Strategist',
-    bio: 'With 15+ years in residential and investment lending, Michael built SonischHomes to give investors the coordinated edge they need in today's market.',
+    bio: "With 15+ years in residential and investment lending, Michael built SonischHomes to give investors the coordinated edge they need in today's market.",
   },
   {
     id: 2,
