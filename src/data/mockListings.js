@@ -572,9 +572,9 @@ export const MOCK_LISTINGS = {
 
 export function getMockListings(
   type,
-  minprice?,
-  maxprice?,
-  q?
+  minprice,
+  maxprice,
+  q
 ) {
   let listings;
 
