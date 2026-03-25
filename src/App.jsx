@@ -6,6 +6,7 @@ import Consult from './pages/Consult'
 import Realtor from './pages/Realtor'
 import Investments from './pages/Investments'
 import Foreclosures from './pages/Foreclosures'
+import Listings from './pages/Listings'
 
 export default function App() {
   return (
@@ -18,6 +19,7 @@ export default function App() {
           <Route path="/realtor" element={<Realtor />} />
           <Route path="/investments" element={<Investments />} />
           <Route path="/foreclosures" element={<Foreclosures />} />
+          <Route path="/listings" element={<Listings />} />
         </Route>
       </Routes>
     </BrowserRouter>
