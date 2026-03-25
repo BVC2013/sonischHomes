@@ -220,22 +220,10 @@ export const stats = [
 
 export const teamMembers = [
   {
-    id: 1,
-    name: 'Michael Sonisch',
-    role: 'Founder & Mortgage Strategist',
-    bio: "With 15+ years in residential and investment lending, Michael built SonischHomes to give investors the coordinated edge they need in today's market.",
-  },
-  {
     id: 2,
     name: 'Sonia Verma',
     role: 'Realtor Partner',
     bio: 'Sonia is an award-winning realtor with deep expertise in investment properties, REO listings, and off-market opportunities across the Midwest.',
     website: 'https://www.soniaverma.com',
-  },
-  {
-    id: 3,
-    name: 'James Okafor',
-    role: 'Investment Analyst',
-    bio: 'James evaluates every deal in the pipeline for ROI, cap rate viability, and exit strategy — ensuring only high-potential properties reach our clients.',
   },
 ]
