@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-background text-base font-sans antialiased;
+    color: #2B2118;
+    background-color: #F7F3E3;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply inline-flex items-center justify-center px-6 py-3 bg-primary text-white font-semibold text-sm tracking-wide uppercase transition-all duration-200 hover:bg-darkAccent active:scale-95;
+  }
+
+  .btn-outline {
+    @apply inline-flex items-center justify-center px-6 py-3 border-2 border-primary text-primary font-semibold text-sm tracking-wide uppercase transition-all duration-200 hover:bg-primary hover:text-white active:scale-95;
+  }
+
+  .btn-dark {
+    @apply inline-flex items-center justify-center px-6 py-3 bg-base text-white font-semibold text-sm tracking-wide uppercase transition-all duration-200 hover:bg-darkAccent active:scale-95;
+  }
+
+  .section-heading {
+    @apply text-3xl md:text-4xl font-bold text-base leading-tight;
+  }
+
+  .card {
+    @apply bg-white border border-neutral shadow-sm transition-all duration-200 hover:shadow-md hover:-translate-y-0.5;
+  }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #F7F3E3;
+}
+::-webkit-scrollbar-thumb {
+  background: #A8763E;
+}
